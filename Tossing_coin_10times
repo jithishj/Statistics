@@ -1,3 +1,4 @@
+# A single experiment of tossing a coin 10 times
 lis=[]
 p=0
 for val in range(10): #10  times
