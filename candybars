@@ -1,0 +1,24 @@
+#For example, suppose that a candy company produces both milk chocolate and dark chocolate candy bars.
+#The product mix is 50 percent of the candy bars are milk chocolate and 50 percent are dark chocolate.
+#Say you choose ten candy bars at random, and choosing milk chocolate is defined as a success.
+#The probability distribution of the number of successes during these ten trials with p = 0.5 is shown here.
+
+import matplotlib.pyplot as plt
+lis=[]
+lisb=[]
+p=0
+for num in range(10000):
+    for val in range(10):
+        k=np.random.random()
+        if k >.5:
+            p=1
+        else:
+            p=0
+        lis.append(p)
+    nos=sum(lis)
+    lis=[]
+    lisb.append(nos)
+print(sum(lisb)/100000)
+plt.hist(lisb)
+plt.show()
+
