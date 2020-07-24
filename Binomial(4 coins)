@@ -1,4 +1,4 @@
-#Find the probability of getting all heads in a toss of 4 fair coins
+#Find the probability of getting all heads in tossing 4 fair coins
 c=0
 for num in range(10000): #Repeating 10000 times
     s=0 #sum of 4 tosses
