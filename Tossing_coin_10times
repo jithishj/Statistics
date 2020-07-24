@@ -1,0 +1,11 @@
+lis=[]
+p=0
+for val in range(10): #10  times
+    k=np.random.random()
+    if k >.5:
+        p=1
+    else:
+        p=0
+    lis.append(p)
+nos=sum(lis) #nos= total no. of heads
+print(nos)
