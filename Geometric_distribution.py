@@ -1,4 +1,4 @@
-#Exponential Distribution
+#Geometric Distribution
 p=.5
 c=0
 l=[]
