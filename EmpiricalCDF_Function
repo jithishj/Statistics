@@ -4,7 +4,7 @@ def ecdf(data):
     data=np.sort(data)
     leng=len(data)
     x=data
-    y=np.arange(0, len(data))/data
+    y=np.arange(0, len(data))/len(data)
     plt.xlabel('data')
     plt.ylabel('ecdf')
     plt.scatter(x,y)
