@@ -2,7 +2,6 @@ def ecdf(data):
     import numpy as np
     import matplotlib.pyplot as plt
     data=np.sort(data)
-    leng=len(data)
     x=data
     y=np.arange(0, len(data))/len(data)
     plt.xlabel('data')
