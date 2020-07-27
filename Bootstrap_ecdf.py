@@ -16,8 +16,8 @@ rainfall=np.array([ 875.5,  648.2,  788.1,  940.3,  491.1,  743.5,  730.1,  686.
         595.2,  855.2,  726.9,  785.2,  948.8,  970.6,  896. ,  618.4,
         572.4, 1146.4,  728.2,  864.2,  793. ])
         
-     for i in range(3):
-    x=np.sort(np.random.choice(rainfall, len(rainfall)))
-    y=np.arange(0, len(x))/len(x)
-    plt.scatter(x,y)
-    plt.legend(('Data_1','Data_2', 'Data_3'))
+    for i in range(3):
+        x=np.sort(np.random.choice(rainfall, len(rainfall)))
+        y=np.arange(0, len(x))/len(x)
+        plt.scatter(x,y)
+        plt.legend(('Data_1','Data_2', 'Data_3'))
